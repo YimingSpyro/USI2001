@@ -8,21 +8,38 @@
 </head>
 <body>
 
-  <div class="container">
+  <div class="game">
 
-    <select id="language">
-      <option value="en">English</option>
-      <option value="zh">中文</option>
-      <option value="ms">Bahasa Melayu</option>
-      <option value="ta">தமிழ்</option>
-    </select>
+    <header class="top-bar">
+      <h1>Conversation Deck</h1>
+      <select id="language">
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+        <option value="ms">Bahasa Melayu</option>
+        <option value="ta">தமிழ்</option>
+      </select>
+    </header>
 
-    <div class="card">
-      <img id="card-image" alt="Card image" />
-      <p id="card-prompt"></p>
-    </div>
+    <main class="card-wrapper">
+      <div class="card">
+        <div class="card-inner">
 
-    <button id="next">Draw Card</button>
+          <div class="card-title" id="card-title"></div>
+
+          <div class="card-image-box">
+            <img id="card-image" alt="Card image" />
+          </div>
+
+          <div class="card-prompt" id="card-prompt"></div>
+
+        </div>
+      </div>
+    </main>
+
+    <footer class="controls">
+      <button id="prev">Back</button>
+      <button id="next">Next</button>
+    </footer>
 
   </div>
 
