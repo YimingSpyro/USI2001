@@ -1,0 +1,38 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.card p {
+  font-size: 1.1rem;
+}
+
+button {
+  margin-top: 16px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
