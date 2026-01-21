@@ -8,39 +8,41 @@
 </head>
 <body>
 
-  <div class="game">
+  <div class="app">
+    <div class="game">
 
-    <header class="top-bar">
-      <h1>Conversation Deck</h1>
-      <select id="language">
-        <option value="en">English</option>
-        <option value="zh">中文</option>
-        <option value="ms">Bahasa Melayu</option>
-        <option value="ta">தமிழ்</option>
-      </select>
-    </header>
+      <header class="top-bar">
+        <h1>Conversation Deck</h1>
+        <select id="language">
+          <option value="en">English</option>
+          <option value="zh">中文</option>
+          <option value="ms">Bahasa Melayu</option>
+          <option value="ta">தமிழ்</option>
+        </select>
+      </header>
 
-    <main class="card-wrapper">
-      <div class="card">
-        <div class="card-inner">
+      <main class="card-wrapper">
+        <div class="card">
+          <div class="card-inner">
 
-          <div class="card-title" id="card-title"></div>
+            <div class="card-title" id="card-title"></div>
 
-          <div class="card-image-box">
-            <img id="card-image" alt="Card image" />
+            <div class="card-image-box">
+              <img id="card-image" alt="Card image" />
+            </div>
+
+            <div class="card-prompt" id="card-prompt"></div>
+
           </div>
-
-          <div class="card-prompt" id="card-prompt"></div>
-
         </div>
-      </div>
-    </main>
+      </main>
 
-    <footer class="controls">
-      <button id="prev">Back</button>
-      <button id="next">Next</button>
-    </footer>
+      <footer class="controls">
+        <button id="prev" type="button">Back</button>
+        <button id="next" type="button">Next</button>
+      </footer>
 
+    </div>
   </div>
 
   <script src="script.js"></script>
