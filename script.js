@@ -7,6 +7,12 @@ fetch("data/cards.json")
   .then(data => {
     cards = shuffle(data);
     showCard();
+  })
+  .catch(err => {
+    console.error("Failed to load cards.json", err);
+    document.getElementById("card-title").textContent = "Error";
+    document.getElementById("card-prompt").textContent =
+      "Could not load data/cards.json";
   });
 
 function showCard() {
@@ -20,21 +26,21 @@ function showCard() {
     card.prompt[currentLang] || card.prompt.en;
 }
 
-document.getElementById("next").onclick = () => {
+document.getElementById("next").addEventListener("click", () => {
   currentIndex = (currentIndex + 1) % cards.length;
   showCard();
-};
+});
 
-document.getElementById("prev").onclick = () => {
+document.getElementById("prev").addEventListener("click", () => {
   currentIndex = (currentIndex - 1 + cards.length) % cards.length;
   showCard();
-};
+});
 
-document.getElementById("language").onchange = e => {
+document.getElementById("language").addEventListener("change", (e) => {
   currentLang = e.target.value;
   showCard();
-};
+});
 
 function shuffle(arr) {
-  return arr.sort(() => Math.random() - 0.5);
+  return arr.slice().sort(() => Math.random() - 0.5);
 }
