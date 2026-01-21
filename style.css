@@ -2,29 +2,37 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   margin: 0;
+  padding: 0;
+}
+
+/* ---------- Base ---------- */
+body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   background: #111;
   color: white;
-  height: 100vh;
+}
+
+/* Mobile-safe viewport height */
+.app {
+  min-height: 100svh; /* fixes mobile 100vh issues */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* ---------- Main game container ---------- */
 .game {
   width: 100%;
   max-width: 420px;
-  height: 100%;
-  max-height: 720px;
   padding: 16px;
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
 
 /* ---------- Header ---------- */
-
 .top-bar {
   display: flex;
   justify-content: space-between;
@@ -32,8 +40,9 @@ body {
 }
 
 .top-bar h1 {
-  font-size: 1.1rem;
+  font-size: 1.15rem;
   margin: 0;
+  line-height: 1.2;
 }
 
 select {
@@ -41,11 +50,10 @@ select {
   color: white;
   border: 1px solid #444;
   padding: 6px 10px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
-/* ---------- Card ---------- */
-
+/* ---------- Center card area ---------- */
 .card-wrapper {
   flex: 1;
   display: flex;
@@ -53,16 +61,18 @@ select {
   align-items: center;
 }
 
+/* ---------- Outer card (dark green border) ---------- */
 .card {
   width: 100%;
-  max-width: 300px;
+  max-width: 320px;
   background: #ffffff;
   border-radius: 30px;
   padding: 10px;
   border: 4px solid #0b3d2e;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+  box-shadow: 0 22px 50px rgba(0,0,0,0.6);
 }
 
+/* ---------- Inner card (light green border) ---------- */
 .card-inner {
   border-radius: 24px;
   border: 3px solid #3fa87a;
@@ -72,53 +82,53 @@ select {
   gap: 12px;
 }
 
-/* ---------- Text ---------- */
-
+/* ---------- Title (top) ---------- */
 .card-title {
   text-align: center;
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: #111;
-}
-
-.card-prompt {
-  text-align: center;
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 650;
   color: #111;
 }
 
-/* ---------- Image ---------- */
-
+/* ---------- Image window ---------- */
 .card-image-box {
   width: 100%;
   aspect-ratio: 4 / 3;
   border-radius: 16px;
   overflow: hidden;
-  background: #eee;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-image-box img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain; /* best for cartoon/transparent images */
+}
+
+/* ---------- Prompt (bottom) ---------- */
+.card-prompt {
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #111;
 }
 
 /* ---------- Controls ---------- */
-
 .controls {
   display: flex;
   gap: 12px;
-  margin-top: 16px;
 }
 
 button {
   flex: 1;
-  padding: 14px;
+  padding: 14px 12px;
   border-radius: 16px;
   border: none;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
 }
 
@@ -133,13 +143,18 @@ button {
 }
 
 button:active {
-  transform: scale(0.97);
+  transform: scale(0.98);
 }
 
-/* ---------- Desktop ---------- */
-
+/* ---------- Desktop polish ---------- */
 @media (min-width: 768px) {
+  .game {
+    max-width: 520px;
+  }
   .card {
-    max-width: 320px;
+    max-width: 360px;
+  }
+  .card-prompt {
+    font-size: 1.05rem;
   }
 }
