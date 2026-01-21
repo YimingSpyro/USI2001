@@ -1,0 +1,29 @@
+[
+  {
+    "image": "images/images.png",
+    "prompt": {
+      "en": "A place that changed how you see the world",
+      "zh": "一个改变你世界观的地方",
+      "ms": "Tempat yang mengubah cara anda melihat dunia",
+      "ta": "உலகத்தை நீங்கள் பார்க்கும் முறையை மாற்றிய ஒரு இடம்"
+    }
+  },
+  {
+    "image": "images/images.png",
+    "prompt": {
+      "en": "A childhood memory you still think about",
+      "zh": "你至今还记得的童年回忆",
+      "ms": "Kenangan zaman kanak-kanak yang masih anda ingati",
+      "ta": "இன்றும் நினைவில் இருக்கும் உங்கள் குழந்தைப் பருவ நினைவு"
+    }
+  },
+  {
+    "image": "images/images.png",
+    "prompt": {
+      "en": "What does a perfect day look like to you?",
+      "zh": "对你来说，完美的一天是什么样的？",
+      "ms": "Bagi anda, bagaimana rupa hari yang sempurna?",
+      "ta": "உங்களுக்குப் பரிபூரணமான நாள் எப்படி இருக்கும்?"
+    }
+  }
+]
