@@ -1,29 +1,47 @@
 [
   {
     "image": "images/images.png",
+    "title": {
+      "en": "Park (testing – input actual cards later)",
+      "zh": "公园（测试中，稍后替换）",
+      "ms": "Taman (ujian – masukkan kad sebenar kemudian)",
+      "ta": "பூங்கா (சோதனை – பின்னர் சேர்க்கவும்)"
+    },
     "prompt": {
-      "en": "A place that changed how you see the world",
-      "zh": "一个改变你世界观的地方",
-      "ms": "Tempat yang mengubah cara anda melihat dunia",
-      "ta": "உலகத்தை நீங்கள் பார்க்கும் முறையை மாற்றிய ஒரு இடம்"
+      "en": "Playground",
+      "zh": "游乐场",
+      "ms": "Taman permainan",
+      "ta": "விளையாட்டு மைதானம்"
     }
   },
   {
     "image": "images/images.png",
+    "title": {
+      "en": "Nature (testing – input actual cards later)",
+      "zh": "自然（测试中，稍后替换）",
+      "ms": "Alam Semula Jadi (ujian – masukkan kad sebenar kemudian)",
+      "ta": "இயற்கை (சோதனை – பின்னர் சேர்க்கவும்)"
+    },
     "prompt": {
-      "en": "A childhood memory you still think about",
-      "zh": "你至今还记得的童年回忆",
-      "ms": "Kenangan zaman kanak-kanak yang masih anda ingati",
-      "ta": "இன்றும் நினைவில் இருக்கும் உங்கள் குழந்தைப் பருவ நினைவு"
+      "en": "Flower",
+      "zh": "花",
+      "ms": "Bunga",
+      "ta": "மலர்"
     }
   },
   {
     "image": "images/images.png",
+    "title": {
+      "en": "Custom (testing – input actual cards later)",
+      "zh": "自定义（测试中）",
+      "ms": "Tersuai (ujian)",
+      "ta": "தனிப்பயன் (சோதனை)"
+    },
     "prompt": {
-      "en": "What does a perfect day look like to you?",
-      "zh": "对你来说，完美的一天是什么样的？",
-      "ms": "Bagi anda, bagaimana rupa hari yang sempurna?",
-      "ta": "உங்களுக்குப் பரிபூரணமான நாள் எப்படி இருக்கும்?"
+      "en": "Write in your own language!",
+      "zh": "用你自己的语言填写！",
+      "ms": "Tulis dalam bahasa anda sendiri!",
+      "ta": "உங்கள் சொந்த மொழியில் எழுதுங்கள்!"
     }
   }
 ]
