@@ -1,0 +1,125 @@
+{
+    "decks": [{
+            "id": "neighbourhood",
+            "name": {
+                "en": "Hyper-Local Neighbourhood",
+                "zh": "社区探索",
+                "ms": "Kejiranan Setempat",
+                "ta": "உள்ளூர் பகுதிகள்"
+            },
+            "description": {
+                "en": "Food, places, and neighbourhood memories.",
+                "zh": "美食、地点与社区回忆。",
+                "ms": "Makanan, tempat, dan kenangan kejiranan.",
+                "ta": "உணவு, இடங்கள், உள்ளூர் நினைவுகள்."
+            },
+            "cards": [{
+                    "image": "images/images.png",
+                    "title": {
+                        "en": "Favourite Spot (testing – input actual cards later)",
+                        "zh": "最喜欢的地点（测试）",
+                        "ms": "Tempat Kegemaran (ujian)",
+                        "ta": "பிடித்த இடம் (சோதனை)"
+                    },
+                    "prompt": {
+                        "en": "What’s one place nearby you always bring people to?",
+                        "zh": "你会常带别人去附近哪个地方？",
+                        "ms": "Satu tempat berdekatan yang anda selalu bawa orang pergi?",
+                        "ta": "நீங்கள் எப்போதும் மற்றவர்களை அழைத்துச் செல்லும் அருகிலுள்ள இடம் எது?"
+                    }
+                },
+                {
+                    "image": "images/images.png",
+                    "title": {
+                        "en": "Food Memory (testing – input actual cards later)",
+                        "zh": "美食回忆（测试）",
+                        "ms": "Kenangan Makanan (ujian)",
+                        "ta": "உணவு நினைவு (சோதனை)"
+                    },
+                    "prompt": {
+                        "en": "What hawker/coffee shop reminds you of home?",
+                        "zh": "哪家熟食中心/咖啡店最让你有家的感觉？",
+                        "ms": "Gerai hawker/kedai kopi mana buat anda rasa seperti di rumah?",
+                        "ta": "எந்த ஹாக்கர்/காப்பி கடை உங்களுக்கு ‘வீடு’ நினைவூட்டுகிறது?"
+                    }
+                },
+                {
+                    "image": "images/images.png",
+                    "title": {
+                        "en": "Hidden Gem (testing – input actual cards later)",
+                        "zh": "隐藏宝藏（测试）",
+                        "ms": "Permata Tersembunyi (ujian)",
+                        "ta": "மறைந்த ரத்தினம் (சோதனை)"
+                    },
+                    "prompt": {
+                        "en": "What’s an underrated place most people don’t notice?",
+                        "zh": "有什么被低估、很多人没注意到的地方？",
+                        "ms": "Tempat ‘underrated’ yang ramai orang tak perasan?",
+                        "ta": "பலர் கவனிக்காத ஆனால் நல்ல ஒரு இடம் எது?"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "storyswap",
+            "name": {
+                "en": "Story Swap",
+                "zh": "故事交换",
+                "ms": "Tukar Cerita",
+                "ta": "கதை பரிமாற்றம்"
+            },
+            "description": {
+                "en": "Memories, lessons, and funny moments.",
+                "zh": "回忆、经验与趣事。",
+                "ms": "Kenangan, pengajaran, dan detik lucu.",
+                "ta": "நினைவுகள், பாடங்கள், நகைச்சுவை தருணங்கள்."
+            },
+            "cards": [{
+                    "image": "images/images.png",
+                    "title": {
+                        "en": "First Time (testing – input actual cards later)",
+                        "zh": "第一次（测试）",
+                        "ms": "Kali Pertama (ujian)",
+                        "ta": "முதல்முறை (சோதனை)"
+                    },
+                    "prompt": {
+                        "en": "Tell me about the first time you felt proud of yourself.",
+                        "zh": "你第一次为自己感到骄傲是什么时候？",
+                        "ms": "Ceritakan kali pertama anda berasa bangga dengan diri sendiri.",
+                        "ta": "நீங்கள் உங்களைப் பற்றிப் பெருமைப்படைந்த முதல்முறை எப்போது?"
+                    }
+                },
+                {
+                    "image": "images/images.png",
+                    "title": {
+                        "en": "A Small Win (testing – input actual cards later)",
+                        "zh": "小小胜利（测试）",
+                        "ms": "Kemenangan Kecil (ujian)",
+                        "ta": "சிறிய வெற்றி (சோதனை)"
+                    },
+                    "prompt": {
+                        "en": "What’s a small achievement you still remember?",
+                        "zh": "你还记得的一个小成就是什么？",
+                        "ms": "Apakah satu pencapaian kecil yang anda masih ingat?",
+                        "ta": "இன்றும் நினைவில் இருக்கும் ஒரு சிறிய சாதனை என்ன?"
+                    }
+                },
+                {
+                    "image": "images/images.png",
+                    "title": {
+                        "en": "Funny Moment (testing – input actual cards later)",
+                        "zh": "好笑的时刻（测试）",
+                        "ms": "Detik Lucu (ujian)",
+                        "ta": "நகைச்சுவையான தருணம் (சோதனை)"
+                    },
+                    "prompt": {
+                        "en": "What’s a story you still laugh about today?",
+                        "zh": "有什么故事你现在想起来还会笑？",
+                        "ms": "Cerita apa yang buat anda masih ketawa sampai sekarang?",
+                        "ta": "இன்றும் நினைத்தால் சிரிப்பு வரும் ஒரு கதை என்ன?"
+                    }
+                }
+            ]
+        }
+    ]
+}
