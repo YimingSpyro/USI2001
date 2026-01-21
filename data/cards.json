@@ -1,47 +1,46 @@
-[
-  {
-    "image": "images/images.png",
-    "title": {
-      "en": "Park (testing – input actual cards later)",
-      "zh": "公园（测试中，稍后替换）",
-      "ms": "Taman (ujian – masukkan kad sebenar kemudian)",
-      "ta": "பூங்கா (சோதனை – பின்னர் சேர்க்கவும்)"
+[{
+        "image": "images/images.png",
+        "title": {
+            "en": "Park (testing – input actual cards later)",
+            "zh": "公园（测试中，稍后替换）",
+            "ms": "Taman (ujian – masukkan kad sebenar kemudian)",
+            "ta": "பூங்கா (சோதனை – பின்னர் சேர்க்கவும்)"
+        },
+        "prompt": {
+            "en": "Playground",
+            "zh": "游乐场",
+            "ms": "Taman permainan",
+            "ta": "விளையாட்டு மைதானம்"
+        }
     },
-    "prompt": {
-      "en": "Playground",
-      "zh": "游乐场",
-      "ms": "Taman permainan",
-      "ta": "விளையாட்டு மைதானம்"
-    }
-  },
-  {
-    "image": "images/images.png",
-    "title": {
-      "en": "Nature (testing – input actual cards later)",
-      "zh": "自然（测试中，稍后替换）",
-      "ms": "Alam Semula Jadi (ujian – masukkan kad sebenar kemudian)",
-      "ta": "இயற்கை (சோதனை – பின்னர் சேர்க்கவும்)"
+    {
+        "image": "images/images.png",
+        "title": {
+            "en": "Nature (testing – input actual cards later)",
+            "zh": "自然（测试中，稍后替换）",
+            "ms": "Alam Semula Jadi (ujian – masukkan kad sebenar kemudian)",
+            "ta": "இயற்கை (சோதனை – பின்னர் சேர்க்கவும்)"
+        },
+        "prompt": {
+            "en": "Flower",
+            "zh": "花",
+            "ms": "Bunga",
+            "ta": "மலர்"
+        }
     },
-    "prompt": {
-      "en": "Flower",
-      "zh": "花",
-      "ms": "Bunga",
-      "ta": "மலர்"
+    {
+        "image": "images/images.png",
+        "title": {
+            "en": "Custom (testing – input actual cards later)",
+            "zh": "自定义（测试中）",
+            "ms": "Tersuai (ujian)",
+            "ta": "தனிப்பயன் (சோதனை)"
+        },
+        "prompt": {
+            "en": "Write in your own language!",
+            "zh": "用你自己的语言填写！",
+            "ms": "Tulis dalam bahasa anda sendiri!",
+            "ta": "உங்கள் சொந்த மொழியில் எழுதுங்கள்!"
+        }
     }
-  },
-  {
-    "image": "images/images.png",
-    "title": {
-      "en": "Custom (testing – input actual cards later)",
-      "zh": "自定义（测试中）",
-      "ms": "Tersuai (ujian)",
-      "ta": "தனிப்பயன் (சோதனை)"
-    },
-    "prompt": {
-      "en": "Write in your own language!",
-      "zh": "用你自己的语言填写！",
-      "ms": "Tulis dalam bahasa anda sendiri!",
-      "ta": "உங்கள் சொந்த மொழியில் எழுதுங்கள்!"
-    }
-  }
 ]
